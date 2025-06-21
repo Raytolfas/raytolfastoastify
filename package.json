@@ -1,0 +1,46 @@
+{
+  "name": "@raytolfas/toastify",
+  "version": "0.0.1",
+  "description": "A stylish toast notification library with progress bar and icons",
+  "main": "dist/raytolfas-toastify.umd.js",
+  "module": "dist/raytolfas-toastify.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "vitest": "^0.34.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "author": "Raytolfas",
+  "license": "MIT",
+  "keywords": [
+    "toast",
+    "notification",
+    "react",
+    "typescript",
+    "javascript",
+    "progress-bar",
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raytolfas/toastify"
+  }
+}
