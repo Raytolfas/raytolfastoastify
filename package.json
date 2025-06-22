@@ -1,6 +1,6 @@
 {
   "name": "@raytolfas/toastify",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A stylish toast notification library with progress bar and icons",
   "main": "dist/raytolfas-toastify.umd.js",
   "module": "dist/raytolfas-toastify.es.js",
